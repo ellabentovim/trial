@@ -1,3 +1,12 @@
+from utils import show_users, ask_name
+
+def main():
+    ask_name()
+    show_users()
+
+if __name__ == '__main__':
+    main()
+
 def ask_name():
     name = input("what is your name? ")
     print(f"nice to meet you, {name}!")
